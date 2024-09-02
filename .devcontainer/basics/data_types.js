@@ -4,6 +4,6 @@
 let names = "Puneet"
 let age = 20
 let is_logged = true
-
+console.log(age)
 // console.log(typeof null) --> object
 // console.log(typeof undefined) --> undefined

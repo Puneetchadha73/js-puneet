@@ -1,0 +1,17 @@
+let myDate = new Date()
+console.log(myDate)
+console.log(String(myDate))
+console.log(myDate.toString())
+console.log(myDate.toDateString())
+console.log(myDate.toJSON())
+console.log(myDate.toLocaleDateString())
+console.log(myDate.toLocaleTimeString())
+console.log(myDate.toTimeString())
+console.log(myDate.toUTCString())
+
+let myNewDate = new Date(2024,8,13)
+console.log(myNewDate)
+console.log(myNewDate.toDateString())
+
+let myNewDated = new Date(2024,8,13,11,50)
+console.log("The latest date is", myNewDate.toLocaleString())

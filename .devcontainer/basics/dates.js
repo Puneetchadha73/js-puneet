@@ -15,3 +15,21 @@ console.log(myNewDate.toDateString())
 
 let myNewDated = new Date(2024,8,13,11,50)
 console.log("The latest date is", myNewDate.toLocaleString())
+
+let myNewDateds = new Date("2024-05-13")
+console.log(myNewDateds.toLocaleString())
+
+let myTimestamp = new Date()
+console.log(myTimestamp.now)
+
+let myTimestamp1 = Date.now()
+console.log(myTimestamp1)
+
+let newDate = new Date()
+console.log(newDate.getDate())
+console.log(newDate.getDay())
+console.log(newDate.getFullYear())
+console.log(newDate.getHours())
+console.log(newDate.getMilliseconds())
+console.log(newDate.getMonth())
+console.log(newDate.getTime())
